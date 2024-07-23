@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: test237-repository
+spec:
+  url: https://github.com/rhtap-qe-jsmid/rhtap-python-template-test
